@@ -1,0 +1,1614 @@
+
+@font-face {
+    font-family:sit;
+    src: url(./cIf5Ma1dtE0zSiGSiED7AXEBuI8.ttf);
+}
+@font-face {
+    font-family:gajraj ;
+    src: url(./GajrajOne-Regular.ttf);
+}
+@font-face {
+    font-family:web;
+    src: url(./Everett-Light-web.ttf);
+}
+@font-face {
+    font-family:lob ;
+    src: url(./LobsterTwo-Italic.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#main{
+    overflow: hidden;
+}
+#loader{
+  width: 100%;
+  height: 100vh;
+  background-color:white;
+  position: absolute;
+  z-index: 9999;
+}
+#loader #text-anime{
+  width: 97%;
+  position: absolute;
+  top: 15%;
+z-index: 9999;
+left: 20px;
+
+}
+#loader video{
+  height: 70%;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+#text-anime h1{
+  font-size: 7vw;
+
+font-family:monument;
+font-style: italic;
+font-weight: 500;
+color:black;
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./mc20_hero_desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+#page1 h1{
+    font-size: 6vw;
+    /* word-spacing: -15px; */
+    font-family: gajraj;
+    font-style: italic;
+    position: absolute;
+    top: 73%;
+    font-weight: 300;
+    color:#FFFFFF;
+    left: 38%;
+}
+
+#nav{
+    width: 100%;
+    height: 90px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    color: white;
+}
+
+#nav-part1{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-part1 h5{
+font-size: 16px;
+font-family: sit;
+font-weight: 500;
+}
+
+#nav img{
+    height: 50px;
+    padding-right: 20px;
+}
+
+#nav-part2{
+    font-size: 25px;
+width: 70px;
+display: flex;
+justify-content: space-between;
+}
+
+#page2{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+#page2 h5{
+    font-size: 17px;
+    font-family: web;
+    position: absolute;
+    top: 12%;
+    left: 24%;
+}
+
+#page2 h1{
+    font-size: 9vw;
+    letter-spacing: -5px;
+    font-weight: 500;
+    font-family: web;
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    color: #0675FF;
+}
+
+#page2 h2{
+    font-size: 9vw;
+    letter-spacing: -5px;
+    font-weight: 500;
+    font-family: web;
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    color: #0675FF;
+    line-height: 8vw;
+}
+
+#page2 h2 span{
+font-family: lob;
+font-weight: 300;
+}
+
+#page2 img{
+    object-fit: cover;
+    height: 26px;
+    position: absolute;
+    top: 78%;
+    left: 18%;
+}
+
+#page2 p{
+    position: absolute;
+    top: 78%;
+    left: 57%;
+    font-family: web;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+#page3{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    position: relative;
+    margin-top: -5px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #e8dfdf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-slide video {
+    
+position: absolute;
+top: 23%;
+left: 16%;
+    height: 70%;
+    object-fit: cover;
+  }
+  .swiper-button-prev{
+    padding: 30px 30px;
+    background-color: rgb(217, 207, 207);
+    border-radius: 50px;
+  }
+
+  .swiper-button-next{
+    padding: 30px 30px;
+    background-color: rgb(230, 221, 221);
+    border-radius: 50px;
+  }
+
+
+  .swiper-slide h3{
+    font-size: 45px;
+    position: absolute;
+    top: 85%;
+    font-family: web;
+    left: 25%;
+  }
+
+  #mc20{
+position: absolute;
+top: 16%;
+left: 10%;
+width: 330px;
+height: 60px;
+/* background-color: red; */
+  }
+
+  #mc20 img{
+    object-fit: cover;
+    height: 23px;
+  }
+  #black{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    background-image: url(https://maserati.scene7.com/is/image/maserati/maserati/international/Models/granturismo/granturismo-gt/gt/design/GT-Power-Meets-Grace-Carousel-6.jpg?$1920x2000$&fit=constrain);
+    background-position:center;
+    background-size: cover;
+  }
+
+  #black1{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    
+  }
+
+  #black1 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: top;
+  }
+
+  #black2{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    
+  }
+
+  #black2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* object-position: ; */
+  }
+
+  #black3{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    
+  }
+
+  #black3 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* object-position: ; */
+  }
+
+  #black4{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    
+  }
+
+  #black4 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* object-position: ; */
+  }
+
+  #black5{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    
+  }
+
+  #black5 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* object-position: ; */
+  }
+
+ 
+
+.btn1 {
+    position: absolute;
+    top: 85%;
+    left: 60%;
+    width: 300px;
+    height: 50px;
+    color: black;
+    background-color: #FFC845;
+    transition: ease-out 0.5s;
+    font-size: 17px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: inset 0 0 0 0 #FFC845;
+    margin-right: 150px;
+
+}
+
+.btn1:hover{
+    color: white;
+    box-shadow: inset 300px 0 0 0 #014691;
+}
+
+#page4 {
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    position: relative;
+
+}
+
+#box1{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+#box1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#page5 {
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    position: relative;
+    
+    margin-top:-5px;
+   
+}
+#zara{
+    width: 100%;
+    height: 100%;
+    /* background-color: sandybrown; */
+    position: absolute;
+}
+#zara img{
+    height: 70%;
+    position: absolute;
+    top: 17%;
+    left: 46%;
+}
+
+#zara h2{
+    font-size: 5vw;
+    font-family: web;
+    color:white;
+    position: absolute;
+    top: 17%;
+    left: 6%;
+}
+#zara h2 span{
+  font-family: lob;
+  font-weight: 300;
+  }
+#zara h5{
+    font-size: 19px;
+    /* font-weight: 500; */
+    font-family: web;
+    color:white;
+    position: absolute;
+    top: 46%;
+    left: 6%;
+}
+
+#para{
+    height: 100%;
+    width: 100%;
+    /* z-index: 999; */
+    opacity: 0;
+    /* background-color: #FFC845; */
+    background-image: url(https://www.maserati.com/content/dam/maserati/international/Models/my23/mc20-cielo/entry-point/mc20_entry_desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+#page6 {
+  width: 100%;
+  height: 100vh;
+  background-color:black;
+  position: relative;
+  
+  margin-top:-5px;
+ 
+}
+
+#page6 .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+#page6 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page6 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 20%;
+  left: 0;
+} 
+
+#page6 .swiper-slide p {
+  
+  position: absolute;
+  top: 73%;
+  left: 0%;
+  font-size: 16px;
+  font-family: web;
+  color: #FFC845;
+} 
+
+#page6 .swiper-slide h4 {
+  text-align:start;
+  /* align-items: center; */
+  position: absolute;
+  top: 80%;
+  left: 0%;
+  font-size: 19px;
+  font-family:web;
+  font-weight: 500;
+  color:white;
+} 
+
+
+
+#page7 {
+  width: 100%;
+  height: 100vh;
+  background-color:black;
+  position: relative;
+  
+  margin-top:-5px;
+ 
+}
+#box2-page7 {
+  width: 100%;
+  height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+  background-color: green;
+  background-image: url(https://www.maserati.com/content/dam/maserati/international/Models/mc20/exterior/01-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#page8{
+  width: 100%;
+  height: 60vh;
+  background-color:black;
+  position: relative;
+  margin-top: -4px;
+}
+
+#page8 h1{
+  font-size: 80px;
+  font-family: web;
+  color:white;
+  position: absolute;
+  top: 0%;
+  font-weight: 500;
+  left: 3%;
+}
+
+#elem1 {
+  overflow: hidden;
+}
+
+#page8 h2{
+  font-size: 7vw;
+  font-family: lob;
+  color: #0675FF;
+  font-weight: 500;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+
+#elem2 {
+  overflow: hidden;
+}
+
+#page8 h3{
+  font-size:80px;
+  font-family: web;
+  color: white;
+  position: absolute;
+  top: 50%;
+  font-weight: 500;
+  left: 38%;
+}
+
+#elem3 {
+  overflow: hidden;
+}
+
+#page9{
+  width: 100%;
+  height: 100vh;
+  background-color:rgb(138, 114, 114);
+  position: relative;
+  margin-top: -4px;
+}
+
+#mak {
+  width: 750px;
+  height: 85px;
+  /* background-color: #FFC845; */
+  position: absolute;
+  z-index: 9999;
+  top: 82%;
+  left: 28%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nick1{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: #0F0F0F;
+  border: 1px solid white;
+
+}
+
+#nick2{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color:#5B0001;
+  border: 1px solid white;
+
+}
+
+#nick3{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: #BEBEBE;
+  border: 1px solid white;
+
+}
+
+#nick4{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color:#0D121A;
+  border: 1px solid white;
+
+}
+
+#nick5{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color:#E5A600;
+  border: 1px solid white;
+
+}
+
+#nick6{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color:#A9A9A9;
+  border: 1px solid white;
+
+}
+
+#nick7{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color:#081D51;
+  border: 1px solid white;
+
+}
+
+
+
+#red{
+  width: 100%;
+    height: 100vh;
+    background-color:#5B0001;
+    position: absolute;
+    z-index: 888;
+    transition: all ease-in-out 1s;
+left: -100%;
+display: flex;
+align-items: center;
+justify-content: center;
+    
+}
+ #red img{
+    height: 600px;
+    
+ }
+ #red h1 {
+  font-size: 5vw;
+  font-family: monument;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: #BEBEBE;
+  font-weight:300;
+  font-style: italic;
+}
+ #black-car{
+  width: 100%;
+    height: 100vh;
+    background-color:#242424;
+    position: absolute;
+    z-index: 888;
+    transition: all ease-in-out 1s;
+left: 0%;
+display: flex;
+align-items: center;
+justify-content: center;
+    
+}
+ #black-car img{
+    height: 600px;
+    
+ }
+#black-car h1 {
+  font-size: 5vw;
+  font-family: monument;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: #BEBEBE;
+  font-weight:300;
+  font-style: italic;
+}
+
+ #white{
+  width: 100%;
+    height: 100vh;
+    background-color:#BEBEBE;
+    position: absolute;
+    z-index: 888;
+    transition: all ease-in-out 1s;
+left: -100%;
+display: flex;
+align-items: center;
+justify-content: center;
+    
+}
+ #white img{
+    height: 600px;
+    
+ }
+ #white h1 {
+  font-size: 5vw;
+  font-family: monument;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color:#4e4a4a;
+  font-weight:300;
+  font-style: italic;
+}
+ #blue{
+  width: 100%;
+    height: 100vh;
+    background-color:#0D121A;
+    position: absolute;
+    z-index: 888;
+    transition: all ease-in-out 1s;
+left: -100%;
+display: flex;
+align-items: center;
+justify-content: center;
+    
+}
+ #blue img{
+    height: 600px;
+    
+ }
+ #blue h1 {
+  font-size: 5vw;
+  font-family: monument;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: #BEBEBE;
+  font-weight:300;
+  font-style: italic;
+}
+
+ #yellow{
+  width: 100%;
+    height: 100vh;
+    background-color:#E5A600;
+    position: absolute;
+    z-index: 888;
+    transition: all ease-in-out 1s;
+left: -100%;
+display: flex;
+align-items: center;
+justify-content: center;
+    
+}
+ #yellow img{
+    height: 600px;
+    
+ }
+ #yellow h1 {
+  font-size: 5vw;
+  font-family: monument;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: #4e4a4a;
+  font-weight:300;
+  font-style: italic;
+}
+ #gray{
+  width: 100%;
+    height: 100vh;
+    background-color:#A9A9A9;
+    position: absolute;
+    z-index: 888;
+    transition: all ease-in-out 1s;
+left: -100%;
+display: flex;
+align-items: center;
+justify-content: center;
+    
+}
+ #gray img{
+    height: 600px;
+    
+ }
+ #gray h1 {
+  font-size: 5vw;
+  font-family: monument;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: #0D0D0D;
+  font-weight:300;
+  font-style: italic;
+}
+ #dark-blue{
+  width: 100%;
+    height: 100vh;
+    background-color:#081D51;
+    position: absolute;
+    z-index: 888;
+    transition: all ease-in-out 1s;
+left: -100%;
+display: flex;
+align-items: center;
+justify-content: center;
+    
+}
+ #dark-blue img{
+    height: 600px;
+    
+ }
+ #dark-blue h1 {
+  font-size: 5vw;
+  font-family: monument;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: #BEBEBE;
+  font-weight:300;
+  font-style: italic;
+}
+#fox {
+  width:95px;
+    height: 95px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    scale: 0;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#fox p{
+  font-size: 14px;
+  font-family: web;
+
+}
+
+#page10 {
+  width: 100%;
+  height: 100vh;
+  background-color:#0D0D0D;
+  position: relative;
+
+}
+
+#left-page10 {
+  width: 30%;
+  height: 55%;
+
+position: absolute;
+top: 20%;
+left: 15%;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+color: white;
+}
+#left-page10 h6 {
+  font-size: 14px;
+  font-family: web;
+  color: #E5A600;
+}
+#left-page10 h1 {
+  font-size: 70px;
+  line-height: 66px;
+  font-family: web;
+  font-weight: 500;
+}
+
+#left-page10 h1:hover{
+  color: #E5A600;
+}
+#left-page10 h3 {
+  font-size: 22px;
+  /* line-height: 66px; */
+  font-family: web;
+  font-weight: 500;
+}
+
+#left-page10 h3:hover{
+  color: #E5A600;
+}
+#right-page10 {
+  width: 45%;
+  height: 78%;
+  
+  /* background-image: url(https://www.maserati.com/content/dam/maserati/international/Models/granturismo/granturismo-gt/gt/design/GT-Power-Meets-Grace-Carousel-3.jpg/jcr:content/renditions/cq5dam.web.1920.10000.jpeg); */
+  background-image: url(https://www.maserati.com/content/dam/maserati/international/oneoff_engine/Maserati%20GranTurismo%20Fuoriserie%20One-Offs%20PRISMA%20and%20LUCE_range_1920x1080.jpg);
+
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+top: 10%;
+left: 50%;
+transition: all ease-out 0.2s;
+}
+
+
+#page11 {
+  width: 100%;
+  height: 100vh;
+  background-color:black;
+  position: relative;
+  
+  margin-top:-5px;
+ 
+}
+
+#page11 .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+#page11 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page11 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 20%;
+  left: 0;
+} 
+
+#page11 .swiper-slide p {
+  
+  position: absolute;
+  top: 73%;
+  left: 0%;
+  font-size: 16px;
+  font-family: web;
+  color: #FFC845;
+} 
+
+#page11 .swiper-slide h4 {
+  text-align:start;
+  /* align-items: center; */
+  position: absolute;
+  top: 80%;
+  left: 0%;
+  font-size: 19px;
+  font-family:web;
+  font-weight: 500;
+  color:white;
+} 
+
+
+#page12 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #5B0001;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#page12 button{
+  width: 65px;
+  height: 35px;
+  background:rgba(0, 0, 0, 0.599);
+  border-radius: 20px;
+  position: absolute;
+  top: 27%;
+  left: 45%;
+  cursor: pointer;
+  z-index: 9999;
+  border: 1px solid white;
+}
+
+#page12 button span{
+  width: 27px;
+  display: block;
+  height: 27px;
+  background:white;
+  border-radius: 50%;
+  margin-left: 4px;
+  transition: all ease 0.4s;
+  z-index: 9999;
+  
+}
+
+#page12 h5{
+  font-size: 15px;
+  position: absolute;
+  top: 35%;
+  color:#0675FF;
+  left:45% ;
+  z-index: 9999;
+}
+#ban1{
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  background-image:url(./download\ \(1\).png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  scale: 1;
+}
+
+#ban1 h1{
+  position: absolute;
+  left: 35%;
+  top: 10%;
+  font-size: 76px;
+  color:#0675FF;
+  z-index: 9999;
+}
+
+#ban1 h1 span{
+  font-style: italic;
+  font-weight: 300;
+}
+
+#ban2{
+  width: 100%;
+  height: 100%;
+  background-image:url(./cq5dam.web.1920.10000\ \(5\).jpeg);
+  background-position: center;
+  background-size: cover;
+  position:absolute;
+  scale: 0;
+  /* left: 76px; */
+}
+
+#ban2 h1{
+  position: absolute;
+  left: 20%;
+  top: 6%;
+  font-size: 76px;
+  color:black;
+}
+
+#ban2 h1 span{
+  font-style: italic;
+  font-weight: 300;
+}
+
+#page333 {
+  width: 100%;
+  height: 170vh;
+  background-color:black;
+  position: relative;
+  color:white;
+}
+
+#page333 h1{
+  font-size: 7vw;
+  font-family: web;
+  position: absolute;
+  font-weight: 500;
+  letter-spacing: -3px;
+  top:7%;
+  left: 30%;
+}
+
+#page333 h2{
+  font-size: 7vw;
+  font-family: lob;
+  position: absolute;
+  top:15%;
+  font-weight: 500;
+  left: 33%;
+}
+
+#page333 h6{
+  font-size: 15px;
+  font-family: web;
+  position: absolute;
+  top: 5%;
+  left: 14%;
+}
+#page333 p{
+  font-size: 15px;
+  font-family: web;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+}
+
+
+#eco1 {
+  width: 850px;
+  height: 500px;
+  background-image: url(https://www.maserati.com/content/dam/maserati/international/Models/mc20/exterior/02-desktop.jpg);
+  background-size:cover ;
+  background-position: center;
+transition: all ease-out 0.2s;
+  position: absolute;
+  top:32%;
+  left: 5%;
+}
+
+
+#eco2 {
+  width: 500px;
+  height: 360px;
+  background-image: url(https://www.maserati.com/content/dam/maserati/international/Models/mc20/exterior/03-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top:59%;
+  transition: all ease-out 0.2s;
+
+  left: 65%;
+}
+
+
+
+
+
+
+
+
+
+#page13 {
+  width: 100%;
+  height: 120vh;
+  background-color: #5B0001;
+  position: relative;
+}
+
+#inner{
+  width: 100%;
+  height: 100%;
+  background-color: #E5A600;
+background-image: url(https://www.maserati.com/content/dam/maserati/international/Models/mc20/exterior/04-desktop-big.jpg);
+background-position: center;
+background-size: cover;
+
+}
+
+#inner h1{
+  font-size: 75px;
+  font-family:web;
+  color: white;
+  position: absolute;
+  top: 8%;
+  left: 6%;
+}
+#inner h1:hover {
+  color: #0D0D0D;
+}
+#inner h4 {
+  font-size: 23px;
+  font-family: web;
+  position: absolute;
+  bottom: 15%;
+  left: 69%;
+  width: 30%;
+  color: white;
+  font-weight: 500;
+}
+#inner h4:hover {
+  color: #0D0D0D;
+}
+.btn88 {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: transparent;
+  transition: ease-out 0.6s;
+  font-size: 14px;
+  border:1px solid white;
+  /* box-shadow: inset 0 0 0 0 #FFC845; */
+  margin-right: 150px;
+
+}
+
+.btn88:hover{
+  color: black;
+  box-shadow: inset 300px 0 0 0 white;
+}
+
+
+
+#page {
+  width: 100vw;
+  height: 110vh;
+  background-color:black;
+  position: relative;
+
+}
+
+canvas{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 9%;
+  left: 10%;
+
+}
+#page h1{
+  font-size:5vw;
+  font-family: web;
+  font-weight: 500;
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  color: white;
+}
+#page h1:hover {
+  color: #E5A600;
+}
+
+#page h6 {
+  font-size: 15px;
+  font-family: web;
+  top: 23%;
+  left: 3%;
+  font-weight: 500;
+color: white;
+
+  position: absolute;
+}
+#page h6:hover {
+  color: #E5A600;
+}
+.btn99 {
+  position: absolute;
+  top: 65%;
+  left: 3%;
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: transparent;
+  transition: ease-out 0.6s;
+  font-size: 14px;
+  border:1px solid white;
+  /* box-shadow: inset 0 0 0 0 #FFC845; */
+  margin-right: 150px;
+
+}
+
+.btn99:hover{
+  color: black;
+  box-shadow: inset 300px 0 0 0 white;
+}
+
+#page15 {
+  width: 100%;
+  height: 50vh;
+  background-color:white;
+  position: relative;
+}
+#row{
+  width: 950px;
+  height: 225px;
+  /* background-color: #5B0001; */
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  /* border: 1px solid black; */
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+}
+#test1{
+  width:316px ;
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  transition: all ease-out 0.2s;
+}
+#test1:hover{
+  background-color: #E5A600;
+  height: 109%;
+} 
+#test1:hover i{
+  color: black;
+}
+#test1 h3 {
+  font-size: 20px;
+  font-family: web;
+}
+#bot1{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#bot1 i{
+  font-size: 30px;
+  font-weight: 500;
+  color: gray;
+}
+#test2{
+  width:316px ;
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  border-left: none;
+  left: 33.3%;
+  transition: all ease-out 0.2s;
+}
+
+#test2:hover{
+  background-color: #E5A600;
+  height: 109%;
+} 
+#test2 h3 {
+  font-size: 20px;
+  font-family: web;
+}
+#test2:hover i{
+  color: black;
+}
+#bot2{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#bot2 i{
+  font-size: 30px;
+  font-weight: 500;
+  color: gray;
+}
+
+#test3{
+  width:316px ;
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  border-left: none;
+  left: 66.5%;
+  transition: all ease-out 0.2s;
+}
+
+#test3:hover{
+  background-color: #E5A600;
+  height: 109%;
+  
+} 
+
+#test3:hover i{
+  color: black;
+}
+#test3 h3 {
+  font-size: 20px;
+  font-family: web;
+}
+#bot3{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#bot3 i{
+  font-size: 30px;
+  font-weight: 500;
+  color: gray;
+}
+
+
+#page17 {
+  width: 100%;
+  height: 100vh;
+  background-color:black;
+  display: flex;
+  align-items: center;
+}
+
+#left-page17{
+  width:50%;
+  height:100%;
+  
+  background-image: url(https://www.maserati.com/content/dam/maserati/international/Models/my23/granturismo/assets/02.jpg/jcr:content/renditions/cq5dam.web.1920.10000.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+#right-page17{
+  width:50%;
+  height:100% ;
+  /* background-color: rgb(0, 255, 8); */
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 150px;
+  color: white;
+}
+
+#right-page17 h1{
+font-size: 60px;
+font-weight: 500;
+line-height: 60px;
+font-family: web;
+
+}
+#right-page17 h5{
+  font-size: 16px;
+font-family: web;
+}
+
+.btn-page17{
+  width: 260px;
+  height: 60px;
+  color:black;
+  background-color:#FFC845;
+transition: ease-out 0.5s;
+font-size: 14px;
+font-weight: 500;
+border: none;
+/* box-shadow: inset 0 0 0 0 #FFC845; */
+margin-right: 150px;
+
+}
+
+.btn-page17:hover{
+  box-shadow: inset 300px 0 0 0 #014691;
+color:white;
+cursor: pointer;
+}
+
+#page18{
+  width: 100%;
+  height: 70vh;
+  background-color:black;
+  position: relative;
+  margin-top: -3px;
+}
+#page18 img{
+  height: 60px;
+  position: absolute;
+  left: 43%;
+  top: 40px;
+}
+
+#date{
+  width:80%;
+  height: 240px;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+#date1{
+  width: 290px;
+  height: 100%;
+  padding-top: 20px;
+  
+}
+#date1 h5{
+font-size: 17px;
+font-weight: 300;
+line-height: 50px;
+font-family: web;
+}
+
+#date2{
+  width: 290px;
+  height: 100%;
+  padding-top: 20px;
+
+}
+#date2 h4{
+  font-size: 17px;
+  line-height: 50px;
+  font-weight: 300;
+  font-family: web;
+
+  }
+#date3{
+  width: 290px;
+  height: 100%;
+  padding-top: 20px;
+
+}
+#date3 h4{
+  font-size: 17px;
+  line-height: 50px;
+  font-weight: 300;
+  font-family: web;
+
+  }
+#date4{
+  width: 290px;
+  height: 100%;
+  padding-top: 30px;
+}
+#date4 h4{
+  font-size: 17px;
+  font-weight: 300;
+font-family: web;
+
+}
+
+.btn-page18{
+ width: 280px; 
+ height: 50px;
+ color: white;
+ background-color: transparent;
+ border: 1px solid white;
+ transition: ease-out 0.4s;
+ font-size: 16px;
+ box-shadow: inset 0 0 0 0 transparent;
+margin-top: 50px;
+
+}
+
+.btn-page18:hover{
+box-shadow: inset 280px 0 0 0 white;
+color: black;
+}
+
+#link{
+  width: 370px;
+  height: 60px;
+  position: absolute;
+  bottom: 90px;
+  left: 64%;
+/* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#link a{
+  text-decoration: none;
+}
+#link i{
+padding: 10px 12px;
+
+font-size: 30px;
+color: white;
+border-radius: 6px;
+border: 1px solid white;
+}
+.ri-facebook-fill:hover{
+background-color: blue;
+}
+.ri-instagram-line:hover{
+  background:linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+
+}
+
+.ri-twitter-fill:hover{
+  background-color: #26a7de;
+}
+.ri-youtube-fill:hover{
+  background-color: red;
+}
+
+.ri-linkedin-fill:hover{
+  background-color:#0A66C2 ;
+}
