@@ -191,7 +191,7 @@ font-weight: 300;
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #e8dfdf;
+    background: #e8dfdf;  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -509,7 +509,7 @@ height: 60px;
     top: 50%;
     transform: translate(-50%, -50%);
 
-  background-color: green;
+  
   background-image: url(https://www.maserati.com/content/dam/maserati/international/Models/mc20/exterior/01-desktop.jpg);
   background-position: center;
   background-size: cover;
@@ -552,13 +552,13 @@ height: 60px;
 }
 
 #page8 h3{
-  font-size:80px;
+  font-size:50px;
   font-family: web;
   color: white;
   position: absolute;
-  top: 50%;
+  top: 36%;
   font-weight: 500;
-  left: 38%;
+  left: 5%;
 }
 
 #elem3 {
@@ -985,7 +985,7 @@ transition: all ease-out 0.2s;
 #page12 {
   width: 100vw;
   height: 100vh;
-  background-color: #5B0001;
+  /* background-color: #5B0001; */
   position: relative;
   display: flex;
   align-items: center;
@@ -1155,7 +1155,7 @@ transition: all ease-out 0.2s;
 #page13 {
   width: 100%;
   height: 120vh;
-  background-color: #5B0001;
+  background-color: black;
   position: relative;
 }
 
@@ -1422,6 +1422,7 @@ color: white;
   background-color:black;
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 #left-page17{
@@ -1611,4 +1612,622 @@ background-color: blue;
 
 .ri-linkedin-fill:hover{
   background-color:#0A66C2 ;
+}
+
+
+@media (max-width:600px) {
+
+#nav img{
+  display: none;
+
+}
+
+#nav-part2{
+  display: none;
+}
+
+
+
+#loader video{
+  left: 1%;
+  height: 29%;
+}
+
+#page1 h1{
+  font-size: 15vw;
+
+  top: 68%;
+  left: 5%;
+}
+
+#page2 h1{
+  font-size: 21vw;
+  /* letter-spacing: -5px; */
+  font-weight: 500;
+  font-family: web;
+  position: absolute;
+  top: 20%;
+  left:5%;
+  color: #0675FF;
+}
+
+#page2 h2{
+  font-size: 23vw;
+  letter-spacing: -5px;
+
+  top: 40%;
+  left: 5%;
+  line-height: 1vw;
+}
+#page2 p{
+  top: 52%;
+  left: 2%;
+  font-family: web;
+  font-size: 22px;
+  font-weight: 800;
+}
+#page2 img{
+  object-fit: cover;
+  height: 26px;
+  position: absolute;
+  top: 78%;
+  left: 5%;
+}
+
+#page3{
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  position: relative;
+  margin-top: -5px;
+}
+
+.swiper-slide video {
+height: 27%;
+
+left: 0%;
+}
+
+.btn1 {
+  top: 85%;
+  left: 8%;
+  
+}
+#main{
+  overflow: hidden;
+}
+#box1{
+  width: 100vw;
+  height: 70vh;
+
+  /* background-color: rgb(223, 42, 42); */
+  position: absolute;
+  /* left: 50%; */
+  
+  /* transform: translate(-50%, -50%); */
+
+
+}
+
+#box1 video{
+  width: 100vw;
+  height: 50vh;
+  
+  object-fit: cover;
+}
+
+#page5 {
+  width: 100vw;
+  height: 60vh;
+  background-color:black;
+  position: relative;
+  
+  /* margin-top:-5px; */
+ 
+}
+
+#zara img{
+  height: 40%;
+  left: 2%;
+  top: 20%;
+}
+#zara h2{
+  font-size: 8vw;
+  font-family: web;
+
+  top: 4%;
+  left: 30%;
+}
+#zara h5{
+  top: 70%;
+  left: 4px;
+  font-size: 22px;
+}
+
+
+#page6 .swiper-slide img {
+  
+  height: 30vh;
+  
+} 
+
+#page6 .swiper-slide p {
+  
+  
+  top: 54%;
+  left: 0%;
+  
+} 
+
+
+#page6 .swiper-slide h4 {
+  top: 65%;
+  left: 0%;
+  font-size: 14px;
+  font-family:web;
+  font-weight: 500;
+  color:white;
+} 
+
+
+#page7 {
+  width: 100%;
+  height: 100vh;
+  background-color:black;
+  position: relative;
+  
+  margin-top:-5px;
+ 
+}
+#box2-page7 {
+  width: 100%;
+  height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    
+}
+
+#page8{
+  width: 100vw;
+  height: 60vh;
+}
+
+
+#page8 h1{
+  font-size: 50px;
+  font-family: web;
+  color:white;
+  position: absolute;
+  top: 5%;
+  font-weight: 500;
+  left: 3%;
+}
+
+#elem1 {
+  overflow: hidden;
+}
+
+#page8 h2{
+  font-size: 7vw;
+  font-family: lob;
+  color: #0675FF;
+  font-weight: 500;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+#page8 h3{
+  text-align: center;
+  top: 50%;
+}
+#page8 h2{
+  font-size: 16vw;
+}
+
+#red{
+  width: 100%;
+    height: 100vh;
+    background-color:#5B0001;
+    position: absolute;
+    z-index: 888;
+    transition: all ease-in-out 1s;
+left: 1%;
+display: flex;
+align-items: center;
+justify-content: center;
+    
+}
+ #red img{
+    height: 180px;
+    
+ }
+
+ #black-car img{
+  height: 180px;
+  
+}
+
+#white img{
+  height: 180px;
+  
+}
+
+#blue img{
+  height: 180px;
+  
+}
+#yellow img{
+  height: 180px;
+  
+}
+#gray img{
+  height: 180px;
+  
+}
+
+#dark-blue img{
+  height: 180px;
+  
+}
+
+ #mak{
+  /* background-color: red; */
+  width: 338px;
+  left: 0%;
+
+ }
+
+ #nick1{
+  width: 40px;
+  height: 40px;
+ }
+ #nick2{
+  width: 40px;
+  height: 40px;
+ }
+ #nick3{
+  width: 40px;
+  height: 40px;
+ }
+
+ #nick4{
+  width: 40px;
+  height: 40px;
+ }
+
+ #nick5{
+  width: 40px;
+  height: 40px;
+ }
+
+ #nick6{
+  width: 40px;
+  height: 40px;
+ }
+
+ #nick7{
+  width: 40px;
+  height: 40px;
+ }
+
+ #red h1{
+  font-size: 8vw;
+ }
+
+ #right-page10{
+  /* display: none; */
+
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 30%;
+
+ }
+
+ #left-page10{
+  /* background-color: red; */
+  top: 20%;
+height: 20%;
+width: 100%;
+  left: 0;
+ }
+ #left-page10 h1{
+  font-size: 26px;
+  text-align: center;
+  line-height: 1;
+
+ }
+ #left-page10 h3 {
+  
+  display: none;
+  
+}
+#left-page10 h6 {
+  font-size: 14px;
+  
+  text-align: center;
+  
+}
+
+
+
+
+#page11 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 30%;
+  object-fit: cover;
+  position: absolute;
+  top: 2%;
+  left: 0;
+} 
+
+
+#page11 .swiper-slide p {
+  
+  position: absolute;
+  top: 35%;
+  
+} 
+
+#page11 .swiper-slide h4 {
+  
+  top: 50%;
+  left: 0%;
+  font-size: 14px;
+  font-family:web;
+  font-weight: 500;
+  color:white;
+}
+
+
+
+#ban1{
+  width: 100%;
+  height: 40%;
+
+}
+
+#ban2{
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  top: 30%;
+
+}
+#ban2 h1{
+  top: 100%;
+  left: 0;
+  font-size: 70px;
+}
+
+#page12 button{
+  top: 10%;
+}
+#page12 h5{
+  font-size: 25px;
+left: 35%;
+top: 20%;
+}
+
+#ban1 h1{
+  position: absolute;
+  left: 25%;
+  top:98%;
+  line-height: 1;
+  font-size: 70px;
+  
+}
+
+#page333 h1{
+  top:1%;
+  font-size:10vw;
+}
+#page333 h2{
+  top: 10%;
+  font-size: 20vw;
+  left: 3%;
+}
+
+#eco1{
+width: 300px;
+height: 300px;
+top: 23%;
+}
+#page333 p{
+  left: 10%;
+  top: 57%;
+}
+
+#eco2{
+  /* display: none; */
+  left: 4%;
+  width: 320px;
+  top: 68%;
+  height: 300px;
+}
+
+
+#inner{
+  height: 50%;
+  position: absolute;
+  top: 10%;
+}
+
+#inner h4{
+  width: 100%;
+  left: 0;
+  bottom: -30%;
+  font-size: 19px;
+}
+.btn88{
+  left: 35%;
+  top: 80%;
+}
+
+#page{
+  /* background-color: red; */
+}
+
+#page h1{
+  font-size: 11vw;
+  top: 4%;
+}
+#page h6{
+  top:15%;
+}
+
+canvas{
+  height: 90vh;
+  width: 96vw;
+  top: 10%;
+  left: 1%;
+}
+
+.btn99{
+  left: 20%;
+  top: 74%;
+}
+
+#row{
+  width: 310px;
+  top: 40%;
+  /* background-color: red; */
+}
+
+#test1{
+  width: 100px;
+  height: 80%;
+}
+#test1 h3{
+  font-size: 16px;
+}
+
+#test2 h3{
+  font-size: 16px;
+}
+
+#test3 h3{
+  font-size: 16px;
+}
+
+#test1 h3{
+  font-size: 16px;
+}
+
+#test2{
+  width: 100px;
+  height: 80%;
+
+}
+#test3{
+  width: 100px;
+  height: 80%;
+
+}
+#bot1{
+  width: 50%;
+}
+
+#bot2{
+  width: 50%;
+}
+#bot3{
+  width: 50%;
+}
+
+#right-page17{
+  /* display: none; */
+}
+
+#left-page17{
+  width: 100%;
+  height: 60%;
+}
+
+
+#right-page17{
+  width: 100%;
+  height: 60%;
+  position: relative;
+}
+
+#right-page17 h1{
+position: absolute;
+top: 0%;
+left: 20%;
+
+}
+
+#right-page17 h5{
+  position: absolute;
+  top: 55%;
+  left: 0;
+}
+
+
+
+#page18 img{
+  left: 6%;
+}
+
+#date{
+  width: 100%;
+  left: 0;
+}
+
+#date1{
+  width: 200px;
+}
+
+#date1 h5{
+  font-size: 13px;
+  line-height: 30px;
+}
+
+#date2{
+  width: 200px;
+}
+
+#date2 h4{
+  font-size: 13px;
+  line-height: 30px;
+
+}
+
+#date3 h4{
+  font-size: 13px;
+  line-height: 30px;
+
+}
+
+#date4{
+  width: 200px;
+}
+
+#date4 h4{
+  font-size: 13px;
+}
+
+.btn-page18{
+  display: none;
+}
+
+
+#link{
+  /* display: none; */
+  left: 0;
+  bottom: 2px;
+  width: 333px;
+}
+
+#link i{
+  padding: 8px 8px;
+}
+
+
+
+  
 }
