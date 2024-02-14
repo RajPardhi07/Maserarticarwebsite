@@ -1828,7 +1828,7 @@ left: 0%;
 
 #red{
   width: 100%;
-    height: 100vh;
+    height: 73vh;
     background-color:#5B0001;
     position: absolute;
     z-index: 888;
@@ -1849,9 +1849,33 @@ justify-content: center;
   
 }
 
+#black-car h1{
+  font-size: 9vw;
+}
+
+#white h1{
+  font-size: 8vw;
+}
+
 #white img{
   height: 180px;
   
+}
+#yellow h1 {
+
+  font-size: 8vw;
+}
+#dark-blue h1 {
+  font-size: 12vw;
+}
+
+#gray h1{
+  font-size: 8vw;
+}
+
+#blue h1 {
+  font-size: 8vw;
+
 }
 
 #blue img{
@@ -1876,6 +1900,7 @@ justify-content: center;
   /* background-color: red; */
   width: 338px;
   left: 0%;
+  top: 59%;
 
  }
 
@@ -2138,9 +2163,7 @@ canvas{
   width: 50%;
 }
 
-#right-page17{
-  /* display: none; */
-}
+
 
 #left-page17{
   width: 100%;
@@ -2225,6 +2248,14 @@ left: 20%;
 
 #link i{
   padding: 8px 8px;
+}
+
+.btn-page17{
+  position: absolute;
+  top: 83%;
+  width: 240px;
+  height: 50px;
+  left: 10%;
 }
 
 
